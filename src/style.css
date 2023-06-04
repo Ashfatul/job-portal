@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2.category-section-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+    text-align: center;
+}
+
+p.category-section-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+.single-category-container {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.category-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+    margin-top: 32px;
+}
+
+.category-job-available {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #A3A3A3;
+    margin-top: 8px;
+}
+
+.single-category-container .icon {
+    height: 70px;
+    width: 70px;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+}
+
+.featured-jobs-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+    color: #1A1919;
+}
+
+.featured-jobs-subtitle {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+}
+
+.single-featured-job-container {
+    border: 1px solid #E8E8E8;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.job-post {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+}
+
+.job_company {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-top: 8px;
+}
+
+.view-details-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 4px;
+    padding: 11px 18px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.company-logo {
+    margin-bottom: 24px;
+    height: 40px;
+    width: auto;
+}
+
+.featured-jobs-grid, all-jobs-grid {
+    margin-top: 24px;
+}
+
+.job-types > * {
+    border: 1px solid #7E90FE;
+    border-image-slice: 1;
+    border-radius: 4px;
+    padding: 9px 20px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.job-types {
+    margin: 16px 0px;
+}
+
+.job-location-and-salary > * {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+}
+
+.see-all-jobs-btn-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.see-all-jobs {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+}
+
+.hero-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color: #1A1919;
+}
+
+.hero-text > span {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.get-startrd-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+    margin-top: 32px;
+}
+
+.hero-sub-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.start-applying-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+}
+
+.head {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.header-site-name{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
+}
+
+.nav-links li a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer {
+    background: #1A1919;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.site-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.site-des {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 20px;
+}
+
+.flex-basis-40 {
+    width: 40%;
+}
+
+.footer-link-category {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+ul.footer-links li a, .contact-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+hr.separetor {
+    border: 1px solid #dedee912;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rights > * {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive Style */
+
+@media (max-width: 1024px){
+    .hero-image{
+        display: none;
+    }
+    .hero-text-container{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .hero-text{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .start-applying-btn {
+        background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+        border-radius: 8px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .small-menu > a {
+        padding: 10px 0px;
+        font-size: 22px;
+    }
+    .menu-toggler {
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 8px;
+    }   
+}
+
+@media (max-width: 600px){
+    .single-category-container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .single-category-container .icon{
+        margin: auto;
+    }
+
+    h2.page-title {
+        padding-top: 60px!important;
+        padding-bottom: 80px!important;
+    }
+    
+}
+
+
+/* Job Details Page Style */
+
+.page-head {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    position: relative;
+}
+
+h2.page-title {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
+    text-align: center;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.page-head::before{
+    content: "";
+    background-image: url("/src/VectorImg/Vector-art-1.png");
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.page-head::after{
+    content: "";
+    background-image: url("/src/VectorImg/Vector-art-2.png");
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-position: top;
+    background-size: contain;
+}
+
+.job-requirements {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #757575;
+}
+
+span.job-key {
+    color: #1A1919;
+    font-weight: 800;
+}
+
+.job-details-container{
+    margin: 130px 0px;
+}
+.job-information-container .content {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.job-info-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #1A1919;
+}
+
+hr.title-separetor {
+    border: 1px solid #dbdde9;
+    margin: 24px 0px;
+}
+
+.info-item {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    padding: 7px 0px;
+}
+
+.info-type {
+    color: #474747;
+    font-weight: 700;
+}
+
+.info-item img {
+    height: fit-content;
+    width: fit-content;
+    margin-right: 8px;
+}
+
+.apply-now-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.already-applied {
+    background: gray;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px;
+    text-align: center;
+    margin-top: 24px;
+}
+.info-value{
+    margin-left: 8px;
+}
+
+/* Blog post page */
+
+h1.blog-post-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    color: blueviolet;
+}
+
+p.blog-post-content {
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+
+/* applied job page */
+
+.single-applied-job-container {
+    border: 1px solid #E8E8E8;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.job-company-logo {
+    height: 240px;
+    width: 240px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.job-post-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #474747;
+}
+
+.job-company {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #757575;
+}
+
+.applied-job-data {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.job-types-container > * {
+    border: 1px solid #7E90FE;
+    border-image-slice: 1;
+    border-radius: 4px;
+    padding: 9px 20px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+select#filters {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
+}
+
+/* rechart customization */
+
+.custom-tooltip {
+    border: 1px solid lightblue;
+}
